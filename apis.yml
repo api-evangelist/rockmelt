@@ -1,7 +1,22 @@
 aid: rockmelt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rockmelt.png
 name: Rockmelt
-description: Rockmelt is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rockmelt was a Chromium-based social web browser startup founded in 2008 and backed by
+  Andreessen Horowitz (a16z), designed to integrate Facebook, Twitter, and web feeds directly into the
+  browser chrome. The company was acquired by Yahoo in August 2013 and its products were discontinued
+  shortly after. It was surfaced as an a16z portfolio company and added to the API Evangelist network
+  as a stub. Enrichment confirms the company is defunct with no live web, developer, or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/rockmelt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,25 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Yahoo August 2013; products discontinued; no live web/API surface as of enrichment.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Web Browser
+- Social
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
